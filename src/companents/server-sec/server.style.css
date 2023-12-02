@@ -1,0 +1,59 @@
+#server{
+    background-image: url("../image/hero_bg_1.jpg.webp");
+    width: 100%;
+    background-attachment: fixed;
+    height: 35rem;
+}
+.container-server{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35rem;
+
+}
+.content{
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 12rem;
+    justify-content: space-between;
+}
+.content h1{
+    font-size: 3.5rem;
+    color: #fff;
+}
+.buttons{
+    display: flex;
+    gap: 25px;
+}
+.dowload{
+    cursor: pointer;
+    width: 150px;
+    padding: 15px;
+    background-color: rgb(135, 204, 32);
+    color: #fff;
+    transition: 1s;
+    border: 1px solid rgb(135, 204, 32);
+    border-radius: 8px;
+}
+.dowload:hover{
+color: rgb(135, 204, 32);
+background-color: #fff;
+}
+.getTouch{
+    cursor: pointer;
+    width: 150px;
+    padding: 15px;
+    border-radius: 8px;
+    transition: 1s;
+    background-color: #fff;
+    color: rgb(135, 204, 32);
+    border: 1px solid rgb(135, 204, 32);
+}
+.getTouch:hover{
+    background-color: rgb(135, 204, 32);
+    color: #fff;
+}
